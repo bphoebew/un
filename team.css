@@ -1,0 +1,145 @@
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #10A3C6;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.sidenav a:hover {
+  color: black;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+body {
+   padding: 0;
+   margin: 0;
+   /* background: #596778; */
+   background-color: white;
+   color: black;
+   text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+}
+a {
+   color: inherit;
+   font-weight: bold;
+}
+#one{
+  height: 100vh;
+  width: 100%;
+}
+#two{
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+.people{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.peopleBox{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid black;
+  object-fit: cover;
+  margin-bottom: 100px;
+}
+.title{
+  font-size: 100px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.lineOne{
+  border-color: #10A3C6;
+  border-width: 2px;
+  width: 600px;
+  -webkit-animation: slideIn 1s forwards;
+-moz-animation: slideIn 1s forwards;
+animation: slideIn 1s forwards;
+  margin-bottom: 40px;
+}
+.pic{
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.box{
+  /* position: absolute;
+  top: 105%;
+  left: 2%; */
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  width: 400px;
+  margin-left: 80px;
+  padding: 10px;
+  background-color: #10A3C6;
+}
+.totalInfo{
+  display: flex;
+  flex-direction: row;
+}
+.info{
+  margin-top: -35px;
+  display: flex;
+  flex-direction: column;
+}
+.name{
+  font-size: 40px;
+  margin-bottom: 0px;
+  text-align: left;
+  margin-left: 50px;
+}
+.homeBold{
+  font-size: 20px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+.home{
+  font-size: 20px;
+    margin-bottom: 0px;
+      margin-top: 16.5px;
+      text-align: left;
+}
+.sdg{
+  font-size: 20px;
+    margin-bottom: 0px;
+      margin-top: 16px;
+      text-align: left;
+      width: 200px;
+      padding-right: 200px;
+}
+.flexRow{
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}

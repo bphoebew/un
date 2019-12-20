@@ -1,37 +1,15 @@
+function openNav() {
+  document.getElementById("mySidenav").style.width = "300px";
+  document.getElementById("change").style.color = "#10A3C6";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("change").style.color = "black";
+}
+var span = $('span');
 var goalDes = $('.goalDes');
 var goal = $('.goal');
-var goalOne = $('.goalOne');
-var goalDesOne = $('.goalDesOne');
-var goalTwo = $('.goalTwo');
-var goalDesTwo = $('.goalDesTwo');
-var goalThr = $('.goalThr');
-var goalDesThr = $('.goalDesThr');
-var goalFr = $('.goalFr');
-var goalDesFr = $('.goalDesFr');
-var goalFv = $('.goalFv');
-var goalDesFv = $('.goalDesFv');
-var goalSx = $('.goalSx');
-var goalDesSx = $('.goalDesSx');
-var goalSv = $('.goalSv');
-var goalDesSv = $('.goalDesSv');
-var goalEg = $('.goalEg');
-var goalDesEg = $('.goalDesEg');
-var goalNn = $('.goalNn');
-var goalDesNn = $('.goalDesNn');
-var goalTen = $('.goalTen');
-var goalDesTen = $('.goalDesTen');
-var goalEv = $('.goalEv');
-var goalDesEv = $('.goalDesEv');
-var goalTw = $('.goalTw');
-var goalDesTw = $('.goalDesTw');
-var goalTr = $('.goalTr');
-var goalDesTr = $('.goalDesTr');
-var goalFrt = $('.goalFrt');
-var goalDesFrt = $('.goalDesFrt');
-var goalFvn = $('.goalFvn');
-var goalDesFvn = $('.goalDesFvn');
-var goalSxn = $('.goalSxn');
-var goalDesSxn = $('.goalDesSxn');
 var partner = $('.partner');
 var poverty = $('.poverty');
 var hunger = $('.hunger');
@@ -53,193 +31,187 @@ var lifeL = $('.lifeL');
 var peace = $('.peace');
 
 partner.on("mouseover", showPartner);
-partner.on("mouseout", hidePartner);
+partner.on("mouseout", hideText);
 poverty.on("mouseover", showPoverty);
-poverty.on("mouseout", hidePoverty);
+poverty.on("mouseout", hideText);
 hunger.on("mouseover", showHunger);
-hunger.on("mouseout", hideHunger);
+hunger.on("mouseout", hideText);
 health.on("mouseover", showHealth);
-health.on("mouseout", hideHealth);
+health.on("mouseout", hideText);
 healthPic.on("mouseover", showHealth);
-healthPic.on("mouseout", hideHealth);
+healthPic.on("mouseout", hideText);
 education.on("mouseover", showEducation);
-education.on("mouseout", hideEducation);
+education.on("mouseout", hideText);
 equality.on("mouseover", showEquality);
-equality.on("mouseout", hideEquality);
+equality.on("mouseout", hideText);
 clean.on("mouseover", showClean);
-clean.on("mouseout", hideClean);
+clean.on("mouseout", hideText);
 energy.on("mouseover", showEnergy);
-energy.on("mouseout", hideEnergy);
+energy.on("mouseout", hideText);
 econ.on("mouseover", showEcon);
-econ.on("mouseout", hideEcon);
+econ.on("mouseout", hideText);
 structure.on("mouseover", showStructure);
-structure.on("mouseout", hideStructure);
+structure.on("mouseout", hideText);
 inequality.on("mouseover", showInequality);
-inequality.on("mouseout", hideInequality);
+inequality.on("mouseout", hideText);
 sustain.on("mouseover", showSustain);
-sustain.on("mouseout", hideSustain);
+sustain.on("mouseout", hideText);
 product.on("mouseover", showProduct);
 productPic.on("mouseover", showProduct);
-product.on("mouseout", hideProduct);
-productPic.on("mouseout", hideProduct);
+product.on("mouseout", hideText);
+productPic.on("mouseout", hideText);
 climate.on("mouseover", showClimate);
-climate.on("mouseout", hideClimate);
+climate.on("mouseout", hideText);
 lifeW.on("mouseover", showlifeW);
-lifeW.on("mouseout", hidelifeW);
+lifeW.on("mouseout", hideText);
 lifeL.on("mouseover", showlifeL);
-lifeL.on("mouseout", hidelifeL);
+lifeL.on("mouseout", hideText);
 peace.on("mouseover", showPeace);
-peace.on("mouseout", hidePeace);
+peace.on("mouseout", hideText);
 
-function showPartner(){
-  goalDes.css('visibility', 'visible');
-  goal.css('visibility', 'visible');
-}
-function hidePartner(){
+function hideText(){
   goalDes.css('visibility', 'hidden');
   goal.css('visibility', 'hidden');
 }
+function showPartner(){
+  goalDes.css('visibility', 'visible');
+  goal.css('visibility', 'visible');
+  goal.text("Goal 17:");
+  goalDes.text("Partnerships for the Goals");
+}
 
 function showPoverty(){
-  goalDesOne.css('visibility', 'visible');
-  goalOne.css('visibility', 'visible');
-}
-function hidePoverty(){
-  goalDesOne.css('visibility', 'hidden');
-  goalOne.css('visibility', 'hidden');
+  goalDes.css('visibility', 'visible');
+  goal.css('visibility', 'visible');
+  goal.text("Goal 1:");
+  goalDes.text("No Poverty");
 }
 
 function showHunger(){
-  goalDesTwo.css('visibility', 'visible');
-  goalTwo.css('visibility', 'visible');
-}
-function hideHunger(){
-  goalDesTwo.css('visibility', 'hidden');
-  goalTwo.css('visibility', 'hidden');
+  goalDes.css('visibility', 'visible');
+  goal.css('visibility', 'visible');
+  goal.text("Goal 2:");
+  goalDes.text("Zero Hunger");
 }
 
 function showHealth(){
-  goalDesThr.css('visibility', 'visible');
-  goalThr.css('visibility', 'visible');
-}
-function hideHealth(){
-  goalDesThr.css('visibility', 'hidden');
-  goalThr.css('visibility', 'hidden');
+  goalDes.css('visibility', 'visible');
+  goal.css('visibility', 'visible');
+  goal.text("Goal 3:");
+  goalDes.text("Good Health & Well-Being");
 }
 
 function showEducation(){
-  goalDesFr.css('visibility', 'visible');
-  goalFr.css('visibility', 'visible');
-}
-
-function hideEducation(){
-  goalDesFr.css('visibility', 'hidden');
-  goalFr.css('visibility', 'hidden');
+  goalDes.css('visibility', 'visible');
+  goal.css('visibility', 'visible');
+  goal.text("Goal 4:");
+  goalDes.text("Quality Education");
 }
 
 function showEquality(){
-  goalDesFv.css('visibility', 'visible');
-  goalFv.css('visibility', 'visible');
+  goalDes.css('visibility', 'visible');
+  goal.css('visibility', 'visible');
+  goal.text("Goal 5:");
+  goalDes.text("Gender Equality");
 }
 
-function hideEquality(){
-  goalDesFv.css('visibility', 'hidden');
-  goalFv.css('visibility', 'hidden');
-}
 
 function showClean(){
-  goalDesSx.css('visibility', 'visible');
-  goalSx.css('visibility', 'visible');
+  goalDes.css('visibility', 'visible');
+  goal.css('visibility', 'visible');
+  goal.text("Goal 6:");
+  goalDes.text("Clean Water & Sanitation");
 }
 
-function hideClean(){
-  goalDesSx.css('visibility', 'hidden');
-  goalSx.css('visibility', 'hidden');
-}
+
 
 function showEnergy(){
-  goalDesSv.css('visibility', 'visible');
-  goalSv.css('visibility', 'visible');
+  goalDes.css('visibility', 'visible');
+  goal.css('visibility', 'visible');
+  goal.text("Goal 7:");
+  goalDes.text("Affordable and Clean Energy");
 }
-function hideEnergy(){
-  goalDesSv.css('visibility', 'hidden');
-  goalSv.css('visibility', 'hidden');
-}
+
 
 function showEcon(){
-  goalDesEg.css('visibility', 'visible');
-  goalEg.css('visibility', 'visible');
+  goalDes.css('visibility', 'visible');
+  goal.css('visibility', 'visible');
+  goal.text("Goal 8:");
+  goalDes.text("Decent Work And Economic Growth");
 }
-function hideEcon(){
-  goalDesEg.css('visibility', 'hidden');
-  goalEg.css('visibility', 'hidden');
-}
+
 
 function showStructure(){
-  goalDesNn.css('visibility', 'visible');
-  goalNn.css('visibility', 'visible');
+  goalDes.css('visibility', 'visible');
+  goal.css('visibility', 'visible');
+  goal.text("Goal 9:");
+  goalDes.text("Industry, Innovation, and Infrastructure");
 }
-function hideStructure(){
-  goalDesNn.css('visibility', 'hidden');
-  goalNn.css('visibility', 'hidden');
-}
+
 
 function showInequality(){
-  goalDesTen.css('visibility', 'visible');
-  goalTen.css('visibility', 'visible');
-}
-function hideInequality(){
-  goalDesTen.css('visibility', 'hidden');
-  goalTen.css('visibility', 'hidden');
+  goalDes.css('visibility', 'visible');
+  goal.css('visibility', 'visible');
+  goal.text("Goal 10:");
+  goalDes.text("Reduced Inequalities");
 }
 
+
 function showSustain(){
-  goalDesEv.css('visibility', 'visible');
-  goalEv.css('visibility', 'visible');
+  goalDes.css('visibility', 'visible');
+  goal.css('visibility', 'visible');
+  goal.text("Goal 11:");
+  goalDes.text("Sustainable Cities and Communities");
 }
-function hideSustain(){
-  goalDesEv.css('visibility', 'hidden');
-  goalEv.css('visibility', 'hidden');
-}
+
 function showProduct(){
-  goalDesTw.css('visibility', 'visible');
-  goalTw.css('visibility', 'visible');
+  goalDes.css('visibility', 'visible');
+  goal.css('visibility', 'visible');
+  goal.text("Goal 12:");
+  goalDes.text("Responsible Consumption and Production");
 }
-function hideProduct(){
-  goalDesTw.css('visibility', 'hidden');
-  goalTw.css('visibility', 'hidden');
-}
+
 function showClimate(){
-  goalDesTr.css('visibility', 'visible');
-  goalTr.css('visibility', 'visible');
-}
-function hideClimate(){
-  goalDesTr.css('visibility', 'hidden');
-  goalTr.css('visibility', 'hidden');
+  goalDes.css('visibility', 'visible');
+  goal.css('visibility', 'visible');
+  goal.text("Goal 13:");
+  goalDes.text("Climate Action");
 }
 function showlifeW(){
-  goalDesFrt.css('visibility', 'visible');
-  goalFrt.css('visibility', 'visible');
-}
-function hidelifeW(){
-  goalDesFrt.css('visibility', 'hidden');
-  goalFrt.css('visibility', 'hidden');
+  goalDes.css('visibility', 'visible');
+  goal.css('visibility', 'visible');
+  goal.text("Goal 14:");
+  goalDes.text("Life Below Water");
 }
 
 function showlifeL(){
-  goalDesFvn.css('visibility', 'visible');
-  goalFvn.css('visibility', 'visible');
-}
-function hidelifeL(){
-  goalDesFvn.css('visibility', 'hidden');
-  goalFvn.css('visibility', 'hidden');
+  goalDes.css('visibility', 'visible');
+  goal.css('visibility', 'visible');
+  goal.text("Goal 15:");
+  goalDes.text("Life on Land");
 }
 
 function showPeace(){
-  goalDesSxn.css('visibility', 'visible');
-  goalSxn.css('visibility', 'visible');
+  goalDes.css('visibility', 'visible');
+  goal.css('visibility', 'visible');
+  goal.text("Goal 16:");
+  goalDes.text("Peace and Justice Strong Institutions");
 }
-function hidePeace(){
-  goalDesSxn.css('visibility', 'hidden');
-  goalSxn.css('visibility', 'hidden');
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
 }
