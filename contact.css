@@ -86,7 +86,7 @@ animation: slideIn 1s forwards;
   margin-bottom: 40px;
 }
 .pic{
-  width: 400px;
+  width: 600px;
   height: 400px;
   object-fit: cover;
 }
@@ -103,4 +103,43 @@ animation: slideIn 1s forwards;
   margin-left: 80px;
   padding: 10px;
   background-color: #10A3C6;
+}
+.totalInfo{
+  display: flex;
+  flex-direction: row;
+}
+.info{
+  margin-top: -35px;
+  display: flex;
+  flex-direction: column;
+}
+.name{
+  font-size: 40px;
+  margin-bottom: 0px;
+  text-align: left;
+  margin-left: 50px;
+}
+.homeBold{
+  font-size: 20px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+.home{
+  font-size: 20px;
+    margin-bottom: 0px;
+      margin-top: 16.5px;
+      text-align: left;
+}
+.sdg{
+  font-size: 20px;
+    margin-bottom: 0px;
+      margin-top: 16px;
+      text-align: left;
+      width: 200px;
+      padding-right: 200px;
+}
+.flexRow{
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
 }
