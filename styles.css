@@ -190,7 +190,7 @@ a {
 #three{
   height: 100vh;
   width: 100%;
-  padding-bottom: 135px;
+  /* padding-bottom: 135px; */
   background: white;
 }
 #four{
