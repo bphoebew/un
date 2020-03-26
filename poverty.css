@@ -1,43 +1,68 @@
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #10A3C6;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-  font-family: 'Fira Sans', sans-serif;
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
+.logoM{
+  width: 80px;
+  height: 80px;
+}
+.top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.titleM{
+  font-family: 'Fira Sans', sans-serif;
+  margin-top: 10px;
   font-size: 25px;
-  margin-bottom: 30px;
-  color: white;
-  display: block;
-  transition: 0.3s;
+}
+.title{
+  font-family: 'Fira Sans', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  text-align: center;
+}
+.text{
+  font-size: 15px;
+  margin-top: 20px;
+  padding-left: 90px;
+  margin-right: 50px;
+    color: black;
   font-family: 'Fira Sans', sans-serif;
 }
-
-.sidenav a:hover {
+.text:hover{
+  color: #10A3C6;
+}
+a:link{
+  text-decoration: none;
   color: black;
 }
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+.pic{
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  object-fit: cover;
 }
+.flexCen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 body {
    padding: 0;
    margin: 0;
-   /* background: #596778; */
    background-color: white;
    color: black;
    text-align: center;
@@ -85,11 +110,6 @@ a {
 animation: slideIn 1s forwards;
   margin-bottom: 40px;
 }
-.pic{
-  width: 400px;
-  height: 400px;
-  object-fit: cover;
-}
 
 .box{
   /* position: absolute;
@@ -107,7 +127,9 @@ animation: slideIn 1s forwards;
 h2{
 font-size: 50px;
 padding-top: 50px;
+margin-bottom: 50px;
 }
+
 
 .collapsible {
   background-color: #EE1B30;
@@ -162,11 +184,6 @@ a:link{
 }
 a:visited{
   text-decoration: none;
-}
-.title{
-  font-size: 50px;
-  font-weight: 900;
-  margin:0;
 }
 .world{
   width: 50px;
