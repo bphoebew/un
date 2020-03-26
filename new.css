@@ -24,6 +24,7 @@ box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  text-align: center;
 }
 .text{
   font-size: 15px;
