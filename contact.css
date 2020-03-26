@@ -84,3 +84,9 @@ h2{
   text-align: center;
   margin-top: 30px;
 }
+.flexCenTwo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+}
