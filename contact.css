@@ -41,3 +41,14 @@ a:link{
   text-decoration: none;
   color: black;
 }
+.pic{
+  width: 500px;
+  height: 350px;
+  margin-top: 50px;
+  object-fit: cover;
+}
+.flexCen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
