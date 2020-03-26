@@ -1,0 +1,269 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.logo{
+  width: 80px;
+  height: 80px;
+}
+.top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.title{
+  font-family: 'Fira Sans', sans-serif;
+  margin-top: 10px;
+  font-size: 25px;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.text{
+  font-size: 15px;
+  margin-top: 20px;
+  padding-left: 90px;
+  margin-right: 50px;
+    color: black;
+  font-family: 'Fira Sans', sans-serif;
+}
+.text:hover{
+  color: #10A3C6;
+}
+.one{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.poverty:hover, .hunger:hover, .health:hover, .education:hover, .equality:hover, .clean:hover, .energy:hover, .econ:hover, .structure:hover, .inequality:hover, .sustain:hover, .product:hover, .climate:hover, .lifeW:hover{
+  opacity: 100%;
+}
+.lifeL:hover, .peace:hover, .partner:hover{
+  opacity: 100%;
+}
+.poverty{
+  width: 150px;
+  height: 150px;
+     background-color:  #e5243b;
+     opacity: 0.6;
+}
+.povertyPic{
+  width: 100px;
+  height: 50px;
+  margin-left: 25px;
+  margin-top: 50px;
+}
+.hunger{
+  width: 150px;
+  height: 150px;
+  background-color:  #DDA63A;
+  opacity: 0.6;
+}
+.hungerPic{
+  width: 70px;
+  height: 70px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.health{
+  width: 150px;
+  height: 150px;
+   background-color: #4C9F38;
+   opacity: 0.6;
+}
+.healthPic{
+  width: 80px;
+  height: 70px;
+  margin-left: 35px;
+  margin-top: 40px;
+}
+.education{
+  width: 150px;
+  height: 150px;
+  background-color: #C5192D;
+  opacity: 0.6;
+}
+.educationPic{
+  width: 80px;
+  height: 70px;
+  margin-left: 35px;
+  margin-top: 40px;
+}
+.equality{
+  width: 150px;
+  height: 150px;
+  background-color:  #FF3A21;
+  opacity: 0.6;
+}
+.equalityPic{
+  width: 70px;
+  height: 85px;
+  margin-left: 43px;
+  margin-top: 30px;
+}
+.clean{
+  width: 150px;
+  height: 150px;
+   background-color: #26BDE2;
+   opacity: 0.6;
+ }
+ .cleanPic{
+   width: 70px;
+   height: 95px;
+   margin-left: 43px;
+   margin-top: 30px;
+ }
+ .energy{
+   width: 150px;
+   height: 150px;
+   background-color: #FCC30B;
+   opacity: 0.6;
+  }
+  .energyPic{
+    width: 80px;
+    height: 80px;
+    margin-left: 35px;
+    margin-top: 35px;
+  }
+  .econ{
+    width: 150px;
+    height: 150px;
+    background-color: #A21942;
+       opacity: 0.6;
+   }
+   .econPic{
+     width: 80px;
+     height: 80px;
+     margin-left: 35px;
+     margin-top: 35px;
+   }
+   .structure{
+     width: 150px;
+     height: 150px;
+     background-color: #FD6925;
+     opacity: 0.6;
+    }
+    .structurePic{
+      width: 80px;
+      height: 80px;
+      margin-left: 35px;
+      margin-top: 35px;
+    }
+.inequality{
+      width: 150px;
+      height: 150px;
+      background-color: #DD1367;
+      opacity: 0.6;
+     }
+.inequalityPic{
+  width: 80px;
+  height: 80px;
+  margin-left: 35px;
+  margin-top: 35px;
+}
+.sustain{
+       width: 150px;
+       height: 150px;
+       background-color: #FD9D24;
+       opacity: 0.6;
+      }
+.sustainPic{
+  width: 100px;
+  height: 50px;
+  margin-left: 25px;
+  margin-top: 50px;
+}
+.product{
+        width: 150px;
+        height: 150px;
+        background-color: #BF8B2E;
+        opacity: 0.6;
+       }
+.productPic{
+  width: 100px;
+  height: 50px;
+  margin-left: 25px;
+  margin-top: 50px;
+}
+.climate{
+  width: 150px;
+  height: 150px;
+  background-color: #3F7E44;
+  opacity: 0.6;
+}
+.climatePic{
+  width: 100px;
+  height: 50px;
+  margin-left: 25px;
+  margin-top: 50px;
+}
+.lifeW{
+  width: 150px;
+  height: 150px;
+  background-color: #0A97D9;
+  opacity: 0.6;
+}
+.lifeWPic{
+  width: 80px;
+  height: 80px;
+  margin-left: 35px;
+  margin-top: 35px;
+}
+.lifeL{
+  width: 150px;
+  height: 150px;
+  background-color:  #56C02B;
+  opacity: 0.6;
+}
+.lifeLPic{
+  width: 80px;
+  height: 80px;
+  margin-left: 35px;
+  margin-top: 35px;
+}
+.peace{
+  width: 150px;
+  height: 150px;
+  background-color:  #00689D;
+  opacity: 0.6;
+}
+.peacePic{
+  width: 80px;
+  height: 80px;
+  margin-left: 35px;
+  margin-top: 35px;
+}
+.partner{
+  width: 150px;
+  height: 150px;
+  background-color:  #19486A;
+  opacity: 0.6;
+}
+.partnerPic{
+  width: 80px;
+  height: 80px;
+  margin-left: 35px;
+  margin-top: 35px;
+}
+.none{
+  width: 150px;
+  height: 150px;
+  background-color:  white;
+}
+.nonePic{
+  width: 80px;
+  height: 80px;
+  margin-left: 35px;
+  margin-top: 35px;
+}
+a:link{
+  text-decoration: none;
+  color: black;
+}
